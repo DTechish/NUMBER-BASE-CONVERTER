@@ -1,6 +1,6 @@
 # Number Base Converter
 
-A powerful and user-friendly GUI application that converts numbers between any bases from 2 to 36, built with Python and PySide6.
+A user-friendly GUI application that converts numbers between any bases from 2 to 36, built with Python and PySide6.
 
 ## 🚀 Features
 
@@ -29,6 +29,10 @@ A powerful and user-friendly GUI application that converts numbers between any b
 ## 🖼️ Screenshots
 
 ![Default Window](screenshots/screenshot-001.png)
+
+![Conversion](screenshots/screenshot-002.png)
+
+![Error](screenshots/screenshot-003.png)
 
 ## 🎯 How to Use
 
@@ -60,6 +64,7 @@ A powerful and user-friendly GUI application that converts numbers between any b
 - **Language**: Python 3.8+
 - **GUI Framework**: PySide6 (Qt for Python)
 - **Packaging**: PyInstaller for executable creation
+- **Image Processing**: Pillow (for icon handling and conversion)
 - **Styling**: Custom QSS stylesheet for modern UI
 
 ## 📋 Requirements
@@ -84,18 +89,6 @@ pip install pyinstaller
 pyinstaller --onefile --windowed --add-data "styles.qss;." --add-data "icon.png;." --icon="icon.png" base_converter.py
 ```
 
-## 🤝 Contributing
-
-Feel free to:
-- Report bugs by opening an issue
-- Suggest new features
-- Submit pull requests
-- Fork the project for your own modifications
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 👨‍💻 Author
 
 Created by Daniel Glover (DTechish)
@@ -108,8 +101,3 @@ Created by Daniel Glover (DTechish)
 
 ---
 
-⭐ **Star this repo** if you find it useful! It helps others discover the project.
-
-💬 **Questions?** Open an issue or reach out!
-
-🐛 **Found a bug?** Please report it in the issues section.
