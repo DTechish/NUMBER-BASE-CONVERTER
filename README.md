@@ -28,7 +28,7 @@ A powerful and user-friendly GUI application that converts numbers between any b
 
 ## 🖼️ Screenshots
 
-*[Add screenshots of your app here when you upload to GitHub]*
+![Default Window](screenshots/screenshot-001.png)
 
 ## 🎯 How to Use
 
