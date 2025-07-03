@@ -1,0 +1,110 @@
+/*======== MAIN WINDOW STYLING ========*/
+QWidget {
+    background-color: #2b2b2b;
+    color: #dcdcdc;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+}
+
+/*======== TITLE STYLING ========*/
+#title_label {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+    qproperty-alignment: 'AlignCenter';
+}
+
+/*======== LABELS STYLING ========*/
+QLabel {
+    font-size: 14px;
+    font-weight: 600;
+    color: #e0e0e0;
+    padding: 4px 2px;
+}
+
+#result_label {
+    color: #3daee9;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 4px;
+}
+
+#error_message {
+    color: #FF6B6B;
+    background-color: rgba(255, 50, 50, 30);
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid rgba(255, 50, 50, 60);
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin-top: 4px;
+}
+
+/*======== INPUT FIELD STYLING ========*/
+#input_field {
+    background-color: #3c3f41;
+    border: 1px solid #5c5c5c;
+    padding: 4px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+/*======== COMBO BOX STYLING ========*/
+QComboBox {
+    background-color: #3c3f41;
+    border: 1px solid #5c5c5c;
+    padding: 4px;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+QScrollbar:vertical {
+    background: #2b2b2b;
+    width: 12px;
+    margin: 15px 3px 15px 3px;
+    border: 1px solid #444;
+}
+
+QScrollBar::handle:vertical {
+    background: #5c5c5c;
+    border-radius: 4px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: none;
+    height: 0px;
+}
+
+/*======== BUTTON STYLING ========*/
+QPushButton {
+    background-color: #3c3f41;
+    border: 1px solid #5c5c5c;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #dcdcdc;
+}
+
+QPushButton:hover {
+    background-color: #4c5052;
+}
+
+QPushButton:pressed {
+    background-color: #2e2e2e;
+}
+
+/*======== RESULT DISPLAY STYLING ========*/
+QTextEdit {
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    border: 1px solid #3c3c3c;
+    border-radius: 6px;
+    padding: 6px;
+    font-size: 14px;
+    font-family: Consolas, "Courier New", monospace;
+}
+
+QTextEdit:disabled {
+    color: #777777;
+}
